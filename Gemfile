@@ -8,6 +8,9 @@ gem 'rails', '3.2.8'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'rb-inotify'
+  gem 'libnotify'
 end
 
 # Gems used only for assets and not required
